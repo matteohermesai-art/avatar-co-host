@@ -48,7 +48,7 @@ Quick workflow:
     
     parser.add_argument(
         "command",
-        choices=["generate", "status", "live", "obs-setup", "fallback", "rehearsal", "voices"],
+        choices=["generate", "status", "live", "obs-setup", "fallback", "rehearsal", "voices", "play"],
         help="Command to execute"
     )
     
@@ -107,6 +107,13 @@ Quick workflow:
     elif args.command == "rehearsal":
         from live_mode import run_rehearsal
         run_rehearsal()
+    
+    elif args.command == "play":
+        if not args.args:
+            print("ERROR: section_id required. Example: python avatar_co_host.py play opening")
+            sys.exit(1)
+        from script_runner import play_section
+        play_section(args.args[0])
     
     elif args.command == "voices":
         from voice_engine import list_voices

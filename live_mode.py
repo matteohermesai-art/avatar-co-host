@@ -27,8 +27,8 @@ BASE_DIR = Path(__file__).parent  # avatar-co-host/
 AUDIO_DIR = BASE_DIR / "audio"
 SCRIPTS_DIR = BASE_DIR / "scripts"
 
-AVATAR_VOICE = "en-US-JennyNeural"
-AVATAR_RATE = "-15%"
+AVATAR_VOICE = "it-IT-ElsaNeural"
+AVATAR_RATE = "-10%"
 AVATAR_PITCH = "+5Hz"
 
 # Audio routing

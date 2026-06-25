@@ -32,8 +32,8 @@ OBS_CONFIGS.mkdir(exist_ok=True)
 # ══════════════════════════════════════════════════════════════
 # AVATAR VOICE SETTINGS
 # ══════════════════════════════════════════════════════════════
-AVATAR_VOICE = "en-US-JennyNeural"
-AVATAR_RATE = "-15%"
+AVATAR_VOICE = "it-IT-ElsaNeural"
+AVATAR_RATE = "-10%"
 AVATAR_PITCH = "+5Hz"
 
 

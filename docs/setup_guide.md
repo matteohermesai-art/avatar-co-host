@@ -60,7 +60,19 @@ This reads `scripts/event_script.json` and generates all audio files in `audio/`
 python3 script_runner.py status
 ```
 
-### 4. Set up OBS
+### 4. GUI (Interfaccia Grafica)
+
+```bash
+python3 gui_controller.py
+```
+
+Si apre una finestra con:
+- **Pulsanti script** — clicca per riprodurre ogni sezione
+- **Live mode** — digita testo e clicca "PARLA" per far parlare l'avatar
+- **Fallback** — pulsanti rapido per situazioni impreviste
+- **Stop** — interrompi la riproduzione
+
+### 5. Set up OBS
 
 ```bash
 python3 script_runner.py obs-setup

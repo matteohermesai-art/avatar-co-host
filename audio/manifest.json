@@ -1,42 +1,42 @@
 {
   "event": "Innovation Day 2025",
-  "voice": "en-US-JennyNeural",
-  "generated_at": "2026-06-25 14:09:01",
+  "voice": "it-IT-ElsaNeural",
+  "generated_at": "2026-06-25 14:29:27",
   "files": [
     {
       "id": "opening",
       "file": "/home/orin/avatar-co-host/audio/opening.mp3",
       "timing": "00:00",
       "speaker": "avatar",
-      "notes": "Main host Alex stands by. Background music fades."
+      "notes": "Alex resta in attesa. Musica di sfondo."
     },
     {
       "id": "category_ai",
       "file": "/home/orin/avatar-co-host/audio/category_ai.mp3",
       "timing": "00:05",
       "speaker": "avatar",
-      "notes": "Category title slide appears."
+      "notes": "Slide categoria."
     },
     {
       "id": "project_neural_search",
       "file": "/home/orin/avatar-co-host/audio/project_neural_search.mp3",
       "timing": "00:10",
       "speaker": "avatar",
-      "notes": "Maria and Chen walk to stage."
+      "notes": "Maria e Chen sul palco."
     },
     {
       "id": "project_neural_qa",
       "file": "/home/orin/avatar-co-host/audio/project_neural_qa.mp3",
       "timing": "00:25",
       "speaker": "avatar",
-      "notes": "LIVE MODE: Alex moderates Q&A."
+      "notes": "LIVE MODE: Alex modera."
     },
     {
       "id": "project_data_viz",
       "file": "/home/orin/avatar-co-host/audio/project_data_viz.mp3",
       "timing": "00:35",
       "speaker": "avatar",
-      "notes": "Jordan walks to stage."
+      "notes": "Jordan sul palco."
     },
     {
       "id": "project_dataviz_qa",
@@ -50,21 +50,21 @@
       "file": "/home/orin/avatar-co-host/audio/break_1.mp3",
       "timing": "01:00",
       "speaker": "avatar",
-      "notes": "Break slide with timer."
+      "notes": "Slide pausa con timer."
     },
     {
       "id": "category_platform",
       "file": "/home/orin/avatar-co-host/audio/category_platform.mp3",
       "timing": "01:15",
       "speaker": "avatar",
-      "notes": "Category title slide."
+      "notes": "Slide categoria."
     },
     {
       "id": "project_deploy_bot",
       "file": "/home/orin/avatar-co-host/audio/project_deploy_bot.mp3",
       "timing": "01:20",
       "speaker": "avatar",
-      "notes": "Sofia and Marcus on stage."
+      "notes": "Sofia e Marcus sul palco."
     },
     {
       "id": "project_deploy_qa",
@@ -78,7 +78,7 @@
       "file": "/home/orin/avatar-co-host/audio/project_chaos_engine.mp3",
       "timing": "01:50",
       "speaker": "avatar",
-      "notes": "Priya on stage."
+      "notes": "Priya sul palco."
     },
     {
       "id": "project_chaos_qa",
@@ -92,21 +92,21 @@
       "file": "/home/orin/avatar-co-host/audio/lunch_break.mp3",
       "timing": "02:20",
       "speaker": "avatar",
-      "notes": "Lunch slide with timer."
+      "notes": "Slide pranzo con timer."
     },
     {
       "id": "category_ux",
       "file": "/home/orin/avatar-co-host/audio/category_ux.mp3",
       "timing": "03:20",
       "speaker": "avatar",
-      "notes": "Category title slide."
+      "notes": "Slide categoria."
     },
     {
       "id": "project_voice_ui",
       "file": "/home/orin/avatar-co-host/audio/project_voice_ui.mp3",
       "timing": "03:25",
       "speaker": "avatar",
-      "notes": "Leo on stage."
+      "notes": "Leo sul palco."
     },
     {
       "id": "project_voice_qa",
@@ -120,7 +120,7 @@
       "file": "/home/orin/avatar-co-host/audio/project_accessibility.mp3",
       "timing": "03:55",
       "speaker": "avatar",
-      "notes": "Amara and Diego on stage."
+      "notes": "Amara e Diego sul palco."
     },
     {
       "id": "project_access_qa",
@@ -134,14 +134,14 @@
       "file": "/home/orin/avatar-co-host/audio/awards.mp3",
       "timing": "04:25",
       "speaker": "avatar",
-      "notes": "Voting slide with QR code."
+      "notes": "Slide votazione con QR code."
     },
     {
       "id": "closing",
       "file": "/home/orin/avatar-co-host/audio/closing.mp3",
       "timing": "04:40",
       "speaker": "avatar",
-      "notes": "Applause. Closing credits."
+      "notes": "Applausi. Slide di chiusura."
     },
     {
       "id": "live_unexpected_question",

@@ -32,8 +32,8 @@ AUDIO_OUTPUT_DIR.mkdir(exist_ok=True)
 SCRIPTS_DIR.mkdir(exist_ok=True)
 
 # Avatar voice settings — consistent across all pre-recorded content
-AVATAR_VOICE = "en-US-JennyNeural"  # Professional, warm female voice
-AVATAR_RATE = "-15%"  # Slightly slower for clarity
+AVATAR_VOICE = "it-IT-ElsaNeural"  # Italian voice
+AVATAR_RATE = "-10%"  # Slightly slower for clarity
 AVATAR_PITCH = "+5Hz"  # Slightly higher pitch for friendly tone
 
 # Cache for generated audio (avoid re-generating same text)
