@@ -38,10 +38,55 @@ AVATAR_PITCH = "+5Hz"
 
 
 async def generate_speech(text: str, output_path: str, voice: str = AVATAR_VOICE) -> str:
-    """Generate avatar speech and save to file."""
-    communicate = edge_tts.Communicate(text, voice, rate=AVATAR_RATE, pitch=AVATAR_PITCH)
-    await communicate.save(output_path)
+    """Generate natural avatar speech with improved prosody."""
+    # Use SSML for more natural intonation
+    ssml = _build_natural_ssml(text)
+    try:
+        # Try SSML first for more natural sound
+        communicate = edge_tts.SsmlGenerator(ssml)
+        await communicate.save(output_path)
+    except:
+        # Fallback to standard with optimized params
+        communicate = edge_tts.Communicate(
+            text, voice, rate=AVATAR_RATE, pitch=AVATAR_PITCH
+        )
+        await communicate.save(output_path)
     return output_path
+
+
+def _build_natural_ssml(text: str) -> str:
+    """Build SSML with natural prosody for less robotic voice."""
+    import re
+    
+    ssml = """<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xml:lang="it-IT">
+    <prosody rate="-8%" pitch="+3Hz">
+"""
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    
+    for i, sentence in enumerate(sentences):
+        if not sentence.strip():
+            continue
+        
+        # Add emphasis on capitalized words
+        sentence = re.sub(
+            r'\b([A-Z]{2,})\b',
+            r'<emphasis level="moderate">\1</emphasis>',
+            sentence
+        )
+        
+        # Micro-breaks between clauses
+        sentence = sentence.replace(', ', '<break time="180ms"/>, ')
+        
+        ssml += f"        {sentence}"
+        if i < len(sentences) - 1:
+            ssml += '<break time="350ms"/>'
+        ssml += "\n"
+    
+    ssml += """    </prosody>
+</speak>"""
+    return ssml
 
 
 def generate_all_scripts(script_json: str = None):

@@ -48,7 +48,7 @@ Quick workflow:
     
     parser.add_argument(
         "command",
-        choices=["generate", "status", "live", "obs-setup", "fallback", "rehearsal", "voices", "play"],
+        choices=["generate", "status", "live", "obs-setup", "fallback", "rehearsal", "voices", "play", "avatar"],
         help="Command to execute"
     )
     
@@ -114,6 +114,23 @@ Quick workflow:
             sys.exit(1)
         from script_runner import play_section
         play_section(args.args[0])
+    
+    elif args.command == "avatar":
+        if not args.args:
+            print("ERROR: text required. Example: python avatar_co_host.py avatar 'Hello world'")
+            sys.exit(1)
+        from voice_engine_natural import LipSyncAvatar, text_to_speech_natural
+        text = " ".join(args.args)
+        print(f"Generating speech...")
+        audio_path = text_to_speech_natural(text)
+        print(f"Generating lip-sync video...")
+        avatar = LipSyncAvatar()
+        video_path = avatar.generate_avatar_video(audio_path)
+        if video_path:
+            print(f"Video: {video_path}")
+            print(f"Play with: ffplay {video_path}")
+        else:
+            print("Video generation failed. Install Pillow: pip install Pillow")
     
     elif args.command == "voices":
         from voice_engine import list_voices
