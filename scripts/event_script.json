@@ -1,0 +1,104 @@
+{
+  "event": "Internal Innovation Showcase",
+  "language": "en",
+  "last_updated": "2025-06-25",
+  "presenter": "Main Host",
+  "avatar": "Nova (AI Co-Host)",
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Event Opening",
+      "timing": "00:00",
+      "avatar_script": "Good morning everyone, and welcome to our Internal Innovation Showcase! I'm Nova, your co-host for today. Over the next few hours, we'll be showcasing some incredible projects from our teams. Get ready to be inspired!",
+      "speaker": "avatar",
+      "notes": "Main host stands by. Background music fades."
+    },
+    {
+      "id": "category_1_intro",
+      "title": "Category 1 Introduction — AI & Machine Learning",
+      "timing": "00:05",
+      "avatar_script": "Let's start with our first category: Artificial Intelligence and Machine Learning. Our teams have been working hard to push the boundaries of what's possible with AI. Let's see what they've built!",
+      "speaker": "avatar",
+      "notes": "Category title slide appears. First project team gets ready."
+    },
+    {
+      "id": "project_1_intro",
+      "title": "Project 1 Introduction",
+      "timing": "00:10",
+      "avatar_script": "Our first project is from [Team Name]. They'll be presenting [Project Title]. This project focuses on [one-line description]. Please welcome [Presenter Name]!",
+      "speaker": "avatar",
+      "notes": "Customize [Team Name], [Project Title], [Presenter Name]. Presenter walks to stage."
+    },
+    {
+      "id": "project_1_qa",
+      "title": "Project 1 Q&A Transition",
+      "timing": "00:25",
+      "avatar_script": "Thank you [Presenter Name]! That was fascinating. I've already got some questions from our audience. [Pause] Now, let's open it up for questions!",
+      "speaker": "avatar",
+      "notes": "LIVE MODE: Main host takes over for Q&A. Operator ready for unexpected questions."
+    },
+    {
+      "id": "project_2_intro",
+      "title": "Project 2 Introduction",
+      "timing": "00:35",
+      "avatar_script": "Let's move on to our second project! [Team Name] is here to tell us about [Project Title]. This team has been working on [one-line description]. Let's give them a warm welcome!",
+      "speaker": "avatar",
+      "notes": "Same pattern as Project 1. Customize fields."
+    },
+    {
+      "id": "break",
+      "title": "Coffee Break",
+      "timing": "01:30",
+      "avatar_script": "We've seen some amazing work so far! Let's take a quick 15-minute coffee break. Grab a drink, network with your colleagues, and we'll be back shortly with more projects!",
+      "speaker": "avatar",
+      "notes": "Break slide with timer. Background music plays."
+    },
+    {
+      "id": "category_2_intro",
+      "title": "Category 2 Introduction — Infrastructure & Platforms",
+      "timing": "01:45",
+      "avatar_script": "Welcome back! Now let's dive into our second category: Infrastructure and Platforms. These are the foundations that make everything else possible. Let's see what our platform teams have been building!",
+      "speaker": "avatar",
+      "notes": "Category title slide appears."
+    },
+    {
+      "id": "category_2_project_1",
+      "title": "Category 2 - Project 1",
+      "timing": "02:00",
+      "avatar_script": "Our next project comes from [Team Name]. They've built [Project Title] — [one-line description]. Please welcome [Presenter Name] to the stage!",
+      "speaker": "avatar",
+      "notes": "Customize fields."
+    },
+    {
+      "id": "panel_intro",
+      "title": "Panel Discussion",
+      "timing": "03:00",
+      "avatar_script": "Now it's time for something a little different. We have a special panel discussion lined up! Our panelists will be discussing [Panel Topic]. Let's bring them all on stage!",
+      "speaker": "avatar",
+      "notes": "LIVE MODE: Panel discussion. Main host moderates. Operator ready."
+    },
+    {
+      "id": "voting_reminder",
+      "title": "Voting Reminder",
+      "timing": "03:45",
+      "avatar_script": "Before we wrap up, don't forget to cast your votes! You can vote for your favorite project using [voting method]. Voting closes at [closing time].",
+      "speaker": "avatar",
+      "notes": "Voting instructions on screen."
+    },
+    {
+      "id": "closing",
+      "title": "Event Closing",
+      "timing": "04:00",
+      "avatar_script": "And that's a wrap! We've seen [number] incredible projects from our talented teams. Thank you to all our presenters, and thank you all for being here today. The innovation in this room is truly inspiring. Keep building, keep creating, and I'll see you at the next showcase. Goodbye everyone!",
+      "speaker": "avatar",
+      "notes": "Applause. Closing credits slide. Main host says final thanks."
+    }
+  ],
+  "live_mode_prompts": {
+    "unexpected_question": "[Operator types/pastes question here — avatar will speak it in its voice]",
+    "technical_issue": "Looks like we're having a small technical hiccup. Please bear with us for just a moment!",
+    "time_warning": "Just a heads up — we have about 5 minutes left for this segment.",
+    "encouragement": "That's a great question! Let me think about that for a moment...",
+    "fallback_greeting": "Hello everyone, I'm Nova. Let's get started with today's showcase!"
+  }
+}

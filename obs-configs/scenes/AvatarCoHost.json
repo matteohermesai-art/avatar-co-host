@@ -1,0 +1,113 @@
+{
+  "name": "AvatarCoHost",
+  "scenes": [
+    {
+      "name": "Avatar Speaking",
+      "sources": [
+        {
+          "name": "Avatar Video",
+          "type": "image_source",
+          "settings": {
+            "file": "/home/orin/avatar-co-host/avatar/nova_avatar.png"
+          }
+        },
+        {
+          "name": "Avatar Audio",
+          "type": "wasapi_output_capture",
+          "settings": {
+            "device_id": "default"
+          }
+        },
+        {
+          "name": "Lower Third",
+          "type": "text_gdiplus",
+          "settings": {
+            "text": "Nova \u2014 AI Co-Host",
+            "font": {
+              "face": "Arial",
+              "size": 24,
+              "bold": true
+            },
+            "color": "#FFFFFF"
+          },
+          "pos": {
+            "x": 100,
+            "y": 900
+          },
+          "size": {
+            "cx": 400,
+            "cy": 50
+          }
+        }
+      ]
+    },
+    {
+      "name": "Main Host",
+      "sources": [
+        {
+          "name": "Host Camera",
+          "type": "dshow_input_capture",
+          "settings": {
+            "video_device_id": "Default Camera"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Project Presentation",
+      "sources": [
+        {
+          "name": "Screen Capture",
+          "type": "monitor_capture",
+          "settings": {
+            "monitor": 0
+          }
+        },
+        {
+          "name": "Avatar Overlay",
+          "type": "image_source",
+          "settings": {
+            "file": "/home/orin/avatar-co-host/avatar/nova_small.png"
+          },
+          "pos": {
+            "x": 1600,
+            "y": 800
+          },
+          "size": {
+            "cx": 300,
+            "cy": 200
+          }
+        }
+      ]
+    },
+    {
+      "name": "Break Screen",
+      "sources": [
+        {
+          "name": "Break Image",
+          "type": "image_source",
+          "settings": {
+            "file": "/home/orin/avatar-co-host/output/break_slide.png"
+          }
+        },
+        {
+          "name": "Timer",
+          "type": "text_gdiplus",
+          "settings": {
+            "text": "Back in 15:00",
+            "font": {
+              "face": "Arial",
+              "size": 48,
+              "bold": true
+            },
+            "color": "#FFFFFF"
+          },
+          "pos": {
+            "x": 760,
+            "y": 440
+          }
+        }
+      ]
+    }
+  ]
+}
