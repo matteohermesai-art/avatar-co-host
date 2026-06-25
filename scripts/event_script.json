@@ -1,104 +1,179 @@
 {
-  "event": "Internal Innovation Showcase",
+  "event": "Innovation Day 2025",
   "language": "en",
-  "last_updated": "2025-06-25",
-  "presenter": "Main Host",
-  "avatar": "Nova (AI Co-Host)",
+  "presenter": "Alex",
+  "avatar": "Nova",
   "sections": [
     {
       "id": "opening",
       "title": "Event Opening",
       "timing": "00:00",
-      "avatar_script": "Good morning everyone, and welcome to our Internal Innovation Showcase! I'm Nova, your co-host for today. Over the next few hours, we'll be showcasing some incredible projects from our teams. Get ready to be inspired!",
+      "avatar_script": "Good morning everyone, and welcome to Innovation Day twenty twenty-five! I'm Nova, your co-host for today. We have an incredible lineup of projects from our teams. Get ready to see some amazing innovations!",
       "speaker": "avatar",
-      "notes": "Main host stands by. Background music fades."
+      "notes": "Main host Alex stands by. Background music fades."
     },
     {
-      "id": "category_1_intro",
-      "title": "Category 1 Introduction — AI & Machine Learning",
+      "id": "category_ai",
+      "title": "Category 1 — AI & Data",
       "timing": "00:05",
-      "avatar_script": "Let's start with our first category: Artificial Intelligence and Machine Learning. Our teams have been working hard to push the boundaries of what's possible with AI. Let's see what they've built!",
-      "speaker": "avatar",
-      "notes": "Category title slide appears. First project team gets ready."
-    },
-    {
-      "id": "project_1_intro",
-      "title": "Project 1 Introduction",
-      "timing": "00:10",
-      "avatar_script": "Our first project is from [Team Name]. They'll be presenting [Project Title]. This project focuses on [one-line description]. Please welcome [Presenter Name]!",
-      "speaker": "avatar",
-      "notes": "Customize [Team Name], [Project Title], [Presenter Name]. Presenter walks to stage."
-    },
-    {
-      "id": "project_1_qa",
-      "title": "Project 1 Q&A Transition",
-      "timing": "00:25",
-      "avatar_script": "Thank you [Presenter Name]! That was fascinating. I've already got some questions from our audience. [Pause] Now, let's open it up for questions!",
-      "speaker": "avatar",
-      "notes": "LIVE MODE: Main host takes over for Q&A. Operator ready for unexpected questions."
-    },
-    {
-      "id": "project_2_intro",
-      "title": "Project 2 Introduction",
-      "timing": "00:35",
-      "avatar_script": "Let's move on to our second project! [Team Name] is here to tell us about [Project Title]. This team has been working on [one-line description]. Let's give them a warm welcome!",
-      "speaker": "avatar",
-      "notes": "Same pattern as Project 1. Customize fields."
-    },
-    {
-      "id": "break",
-      "title": "Coffee Break",
-      "timing": "01:30",
-      "avatar_script": "We've seen some amazing work so far! Let's take a quick 15-minute coffee break. Grab a drink, network with your colleagues, and we'll be back shortly with more projects!",
-      "speaker": "avatar",
-      "notes": "Break slide with timer. Background music plays."
-    },
-    {
-      "id": "category_2_intro",
-      "title": "Category 2 Introduction — Infrastructure & Platforms",
-      "timing": "01:45",
-      "avatar_script": "Welcome back! Now let's dive into our second category: Infrastructure and Platforms. These are the foundations that make everything else possible. Let's see what our platform teams have been building!",
+      "avatar_script": "Let's kick things off with our first category: Artificial Intelligence and Data. Our teams have been pushing the boundaries of machine learning and data analytics. Let's see what they've built!",
       "speaker": "avatar",
       "notes": "Category title slide appears."
     },
     {
-      "id": "category_2_project_1",
-      "title": "Category 2 - Project 1",
-      "timing": "02:00",
-      "avatar_script": "Our next project comes from [Team Name]. They've built [Project Title] — [one-line description]. Please welcome [Presenter Name] to the stage!",
+      "id": "project_neural_search",
+      "title": "Project 1 — Neural Search Engine",
+      "timing": "00:10",
+      "avatar_script": "Our first project is from Team Quantum. They've built a Neural Search Engine that understands natural language queries and returns results with ninety-five percent accuracy. Please welcome Maria and Chen to the stage!",
       "speaker": "avatar",
-      "notes": "Customize fields."
+      "notes": "Maria and Chen walk to stage."
     },
     {
-      "id": "panel_intro",
-      "title": "Panel Discussion",
-      "timing": "03:00",
-      "avatar_script": "Now it's time for something a little different. We have a special panel discussion lined up! Our panelists will be discussing [Panel Topic]. Let's bring them all on stage!",
+      "id": "project_neural_qa",
+      "title": "Project 1 Q&A",
+      "timing": "00:25",
+      "avatar_script": "Thank you Maria and Chen! That was impressive. I'm sure the audience has some questions. Let's open it up for discussion!",
       "speaker": "avatar",
-      "notes": "LIVE MODE: Panel discussion. Main host moderates. Operator ready."
+      "notes": "LIVE MODE: Alex moderates Q&A."
     },
     {
-      "id": "voting_reminder",
-      "title": "Voting Reminder",
+      "id": "project_data_viz",
+      "title": "Project 2 — Real-Time Data Visualizer",
+      "timing": "00:35",
+      "avatar_script": "Next up, Team Pixel presents their Real-Time Data Visualizer. This tool transforms live data streams into beautiful interactive dashboards with sub-second latency. Please welcome Jordan!",
+      "speaker": "avatar",
+      "notes": "Jordan walks to stage."
+    },
+    {
+      "id": "project_dataviz_qa",
+      "title": "Project 2 Q&A",
+      "timing": "00:50",
+      "avatar_script": "Amazing work, Jordan! The latency numbers are incredible. Let's take a few questions from the audience.",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "break_1",
+      "title": "Coffee Break",
+      "timing": "01:00",
+      "avatar_script": "We've seen two fantastic AI projects! Let's take a fifteen-minute coffee break. Grab a drink, network with your colleagues, and we'll be back shortly!",
+      "speaker": "avatar",
+      "notes": "Break slide with timer."
+    },
+    {
+      "id": "category_platform",
+      "title": "Category 2 — Platforms & Infrastructure",
+      "timing": "01:15",
+      "avatar_script": "Welcome back everyone! Now let's move to our second category: Platforms and Infrastructure. These are the foundations that power everything else. Let's see what our platform teams have been working on!",
+      "speaker": "avatar",
+      "notes": "Category title slide."
+    },
+    {
+      "id": "project_deploy_bot",
+      "title": "Project 3 — DeployBot",
+      "timing": "01:20",
+      "avatar_script": "Team Rocket presents DeployBot — an automated deployment pipeline that reduces release time from hours to minutes. It supports multi-cloud and zero-downtime deployments. Please welcome Sofia and Marcus!",
+      "speaker": "avatar",
+      "notes": "Sofia and Marcus on stage."
+    },
+    {
+      "id": "project_deploy_qa",
+      "title": "Project 3 Q&A",
+      "timing": "01:40",
+      "avatar_script": "Thank you Sofia and Marcus! DeployBot is already making an impact. Questions from the audience?",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "project_chaos_engine",
+      "title": "Project 4 — Chaos Engine",
+      "timing": "01:50",
+      "avatar_script": "Our next project from Team Resilience is Chaos Engine — a tool that simulates infrastructure failures to help teams build more robust systems. Please welcome Priya!",
+      "speaker": "avatar",
+      "notes": "Priya on stage."
+    },
+    {
+      "id": "project_chaos_qa",
+      "title": "Project 4 Q&A",
+      "timing": "02:10",
+      "avatar_script": "Incredible work, Priya! Chaos Engine is going to change how we think about reliability. Let's open the floor for questions.",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "lunch_break",
+      "title": "Lunch Break",
+      "timing": "02:20",
+      "avatar_script": "What a morning! We've seen four incredible projects. It's time for lunch. We'll be back in one hour with more innovations. Enjoy your meal!",
+      "speaker": "avatar",
+      "notes": "Lunch slide with timer."
+    },
+    {
+      "id": "category_ux",
+      "title": "Category 3 — UX & Design",
+      "timing": "03:20",
+      "avatar_script": "Welcome back! After lunch, let's shift gears to our final category: UX and Design. These projects focus on making our products delightful to use. Let's see what our design teams have created!",
+      "speaker": "avatar",
+      "notes": "Category title slide."
+    },
+    {
+      "id": "project_voice_ui",
+      "title": "Project 5 — Voice-First Interface",
+      "timing": "03:25",
+      "avatar_script": "Team Echo presents a Voice-First Interface that lets users navigate complex applications using natural speech. It supports multiple languages and works offline. Please welcome Leo!",
+      "speaker": "avatar",
+      "notes": "Leo on stage."
+    },
+    {
+      "id": "project_voice_qa",
+      "title": "Project 5 Q&A",
       "timing": "03:45",
-      "avatar_script": "Before we wrap up, don't forget to cast your votes! You can vote for your favorite project using [voting method]. Voting closes at [closing time].",
+      "avatar_script": "Leo, that was amazing! A voice interface that works offline is a game-changer. Questions?",
       "speaker": "avatar",
-      "notes": "Voting instructions on screen."
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "project_accessibility",
+      "title": "Project 6 — Accessibility Toolkit",
+      "timing": "03:55",
+      "avatar_script": "Our final project of the day comes from Team Inclusive. They've built an Accessibility Toolkit that automatically audits and fixes accessibility issues in web applications. Please welcome Amara and Diego!",
+      "speaker": "avatar",
+      "notes": "Amara and Diego on stage."
+    },
+    {
+      "id": "project_access_qa",
+      "title": "Project 6 Q&A",
+      "timing": "04:15",
+      "avatar_script": "Thank you Amara and Diego! Accessibility is so important, and this toolkit will make a real difference. Final questions!",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "awards",
+      "title": "Awards & Voting",
+      "timing": "04:25",
+      "avatar_script": "We've seen six incredible projects today! Now it's time to vote. You can vote for your favorite project using the QR code on screen. Voting closes in ten minutes!",
+      "speaker": "avatar",
+      "notes": "Voting slide with QR code."
     },
     {
       "id": "closing",
       "title": "Event Closing",
-      "timing": "04:00",
-      "avatar_script": "And that's a wrap! We've seen [number] incredible projects from our talented teams. Thank you to all our presenters, and thank you all for being here today. The innovation in this room is truly inspiring. Keep building, keep creating, and I'll see you at the next showcase. Goodbye everyone!",
+      "timing": "04:40",
+      "avatar_script": "And that's a wrap on Innovation Day twenty twenty-five! We've seen six amazing projects from our talented teams. Congratulations to all our presenters, and thank you everyone for being here. The innovation in this room is truly inspiring. Keep building, keep creating, and I'll see you next year. Goodbye everyone!",
       "speaker": "avatar",
-      "notes": "Applause. Closing credits slide. Main host says final thanks."
+      "notes": "Applause. Closing credits."
     }
   ],
   "live_mode_prompts": {
-    "unexpected_question": "[Operator types/pastes question here — avatar will speak it in its voice]",
-    "technical_issue": "Looks like we're having a small technical hiccup. Please bear with us for just a moment!",
-    "time_warning": "Just a heads up — we have about 5 minutes left for this segment.",
+    "unexpected_question": "[Operator types question — avatar speaks it]",
+    "technical_issue": "Looks like we're having a small technical hiccup. Please bear with us for just a moment while we sort this out!",
+    "time_warning": "Just a quick heads up — we have about five minutes left for this segment.",
     "encouragement": "That's a great question! Let me think about that for a moment...",
-    "fallback_greeting": "Hello everyone, I'm Nova. Let's get started with today's showcase!"
+    "fallback_greeting": "Hello everyone, I'm Nova. Let's get started with today's showcase!",
+    "transition": "Thank you for that wonderful presentation! Let's move on to our next project.",
+    "lunch_back": "Welcome back from lunch! Hope everyone had a great break. Let's dive back in!",
+    "voting_reminder": "Don't forget to scan the QR code to vote for your favorite project!",
+    "applause": "Let's give another round of applause for our amazing presenters!"
   }
 }

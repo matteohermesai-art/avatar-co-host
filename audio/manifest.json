@@ -1,84 +1,147 @@
 {
-  "event": "Internal Innovation Showcase",
+  "event": "Innovation Day 2025",
   "voice": "en-US-JennyNeural",
-  "generated_at": "2026-06-25 13:56:08",
+  "generated_at": "2026-06-25 14:09:01",
   "files": [
     {
       "id": "opening",
       "file": "/home/orin/avatar-co-host/audio/opening.mp3",
       "timing": "00:00",
       "speaker": "avatar",
-      "notes": "Main host stands by. Background music fades."
+      "notes": "Main host Alex stands by. Background music fades."
     },
     {
-      "id": "category_1_intro",
-      "file": "/home/orin/avatar-co-host/audio/category_1_intro.mp3",
+      "id": "category_ai",
+      "file": "/home/orin/avatar-co-host/audio/category_ai.mp3",
       "timing": "00:05",
-      "speaker": "avatar",
-      "notes": "Category title slide appears. First project team gets ready."
-    },
-    {
-      "id": "project_1_intro",
-      "file": "/home/orin/avatar-co-host/audio/project_1_intro.mp3",
-      "timing": "00:10",
-      "speaker": "avatar",
-      "notes": "Customize [Team Name], [Project Title], [Presenter Name]. Presenter walks to stage."
-    },
-    {
-      "id": "project_1_qa",
-      "file": "/home/orin/avatar-co-host/audio/project_1_qa.mp3",
-      "timing": "00:25",
-      "speaker": "avatar",
-      "notes": "LIVE MODE: Main host takes over for Q&A. Operator ready for unexpected questions."
-    },
-    {
-      "id": "project_2_intro",
-      "file": "/home/orin/avatar-co-host/audio/project_2_intro.mp3",
-      "timing": "00:35",
-      "speaker": "avatar",
-      "notes": "Same pattern as Project 1. Customize fields."
-    },
-    {
-      "id": "break",
-      "file": "/home/orin/avatar-co-host/audio/break.mp3",
-      "timing": "01:30",
-      "speaker": "avatar",
-      "notes": "Break slide with timer. Background music plays."
-    },
-    {
-      "id": "category_2_intro",
-      "file": "/home/orin/avatar-co-host/audio/category_2_intro.mp3",
-      "timing": "01:45",
       "speaker": "avatar",
       "notes": "Category title slide appears."
     },
     {
-      "id": "category_2_project_1",
-      "file": "/home/orin/avatar-co-host/audio/category_2_project_1.mp3",
-      "timing": "02:00",
+      "id": "project_neural_search",
+      "file": "/home/orin/avatar-co-host/audio/project_neural_search.mp3",
+      "timing": "00:10",
       "speaker": "avatar",
-      "notes": "Customize fields."
+      "notes": "Maria and Chen walk to stage."
     },
     {
-      "id": "panel_intro",
-      "file": "/home/orin/avatar-co-host/audio/panel_intro.mp3",
-      "timing": "03:00",
+      "id": "project_neural_qa",
+      "file": "/home/orin/avatar-co-host/audio/project_neural_qa.mp3",
+      "timing": "00:25",
       "speaker": "avatar",
-      "notes": "LIVE MODE: Panel discussion. Main host moderates. Operator ready."
+      "notes": "LIVE MODE: Alex moderates Q&A."
     },
     {
-      "id": "voting_reminder",
-      "file": "/home/orin/avatar-co-host/audio/voting_reminder.mp3",
+      "id": "project_data_viz",
+      "file": "/home/orin/avatar-co-host/audio/project_data_viz.mp3",
+      "timing": "00:35",
+      "speaker": "avatar",
+      "notes": "Jordan walks to stage."
+    },
+    {
+      "id": "project_dataviz_qa",
+      "file": "/home/orin/avatar-co-host/audio/project_dataviz_qa.mp3",
+      "timing": "00:50",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "break_1",
+      "file": "/home/orin/avatar-co-host/audio/break_1.mp3",
+      "timing": "01:00",
+      "speaker": "avatar",
+      "notes": "Break slide with timer."
+    },
+    {
+      "id": "category_platform",
+      "file": "/home/orin/avatar-co-host/audio/category_platform.mp3",
+      "timing": "01:15",
+      "speaker": "avatar",
+      "notes": "Category title slide."
+    },
+    {
+      "id": "project_deploy_bot",
+      "file": "/home/orin/avatar-co-host/audio/project_deploy_bot.mp3",
+      "timing": "01:20",
+      "speaker": "avatar",
+      "notes": "Sofia and Marcus on stage."
+    },
+    {
+      "id": "project_deploy_qa",
+      "file": "/home/orin/avatar-co-host/audio/project_deploy_qa.mp3",
+      "timing": "01:40",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "project_chaos_engine",
+      "file": "/home/orin/avatar-co-host/audio/project_chaos_engine.mp3",
+      "timing": "01:50",
+      "speaker": "avatar",
+      "notes": "Priya on stage."
+    },
+    {
+      "id": "project_chaos_qa",
+      "file": "/home/orin/avatar-co-host/audio/project_chaos_qa.mp3",
+      "timing": "02:10",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "lunch_break",
+      "file": "/home/orin/avatar-co-host/audio/lunch_break.mp3",
+      "timing": "02:20",
+      "speaker": "avatar",
+      "notes": "Lunch slide with timer."
+    },
+    {
+      "id": "category_ux",
+      "file": "/home/orin/avatar-co-host/audio/category_ux.mp3",
+      "timing": "03:20",
+      "speaker": "avatar",
+      "notes": "Category title slide."
+    },
+    {
+      "id": "project_voice_ui",
+      "file": "/home/orin/avatar-co-host/audio/project_voice_ui.mp3",
+      "timing": "03:25",
+      "speaker": "avatar",
+      "notes": "Leo on stage."
+    },
+    {
+      "id": "project_voice_qa",
+      "file": "/home/orin/avatar-co-host/audio/project_voice_qa.mp3",
       "timing": "03:45",
       "speaker": "avatar",
-      "notes": "Voting instructions on screen."
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "project_accessibility",
+      "file": "/home/orin/avatar-co-host/audio/project_accessibility.mp3",
+      "timing": "03:55",
+      "speaker": "avatar",
+      "notes": "Amara and Diego on stage."
+    },
+    {
+      "id": "project_access_qa",
+      "file": "/home/orin/avatar-co-host/audio/project_access_qa.mp3",
+      "timing": "04:15",
+      "speaker": "avatar",
+      "notes": "LIVE MODE."
+    },
+    {
+      "id": "awards",
+      "file": "/home/orin/avatar-co-host/audio/awards.mp3",
+      "timing": "04:25",
+      "speaker": "avatar",
+      "notes": "Voting slide with QR code."
     },
     {
       "id": "closing",
       "file": "/home/orin/avatar-co-host/audio/closing.mp3",
-      "timing": "04:00",
+      "timing": "04:40",
       "speaker": "avatar",
-      "notes": "Applause. Closing credits slide. Main host says final thanks."
+      "notes": "Applause. Closing credits."
     },
     {
       "id": "live_unexpected_question",
@@ -103,6 +166,26 @@
     {
       "id": "live_fallback_greeting",
       "file": "/home/orin/avatar-co-host/audio/live_fallback_greeting.mp3",
+      "notes": "Live mode prompt"
+    },
+    {
+      "id": "live_transition",
+      "file": "/home/orin/avatar-co-host/audio/live_transition.mp3",
+      "notes": "Live mode prompt"
+    },
+    {
+      "id": "live_lunch_back",
+      "file": "/home/orin/avatar-co-host/audio/live_lunch_back.mp3",
+      "notes": "Live mode prompt"
+    },
+    {
+      "id": "live_voting_reminder",
+      "file": "/home/orin/avatar-co-host/audio/live_voting_reminder.mp3",
+      "notes": "Live mode prompt"
+    },
+    {
+      "id": "live_applause",
+      "file": "/home/orin/avatar-co-host/audio/live_applause.mp3",
       "notes": "Live mode prompt"
     }
   ]
